@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="372" viewBox="0 0 560 372" role="img" aria-labelledby="title desc">
+  <title id="title">Weavidence: three paths, with a way back</title>
+  <desc id="desc">Academy connects sources and learning. Journey connects decisions and protocols. Lab connects methods and results. Return lines represent the context retained behind each output. The three paths are distinct; this sketch does not imply an integrated release, demonstrated competence or scientific validation.</desc>
+  <rect width="560" height="372" rx="4" fill="#111c20"/>
+  <g transform="translate(0 0)">
+    <text x="24" y="44" fill="#edf1eb" font-family="Georgia, 'Times New Roman', serif" font-size="40">Academy</text>
+    <g fill="#edf1eb" font-family="Arial, Helvetica, sans-serif" font-size="36"><text x="24" y="87">Sources</text><text x="336" y="87">Learning</text></g>
+    <path d="M206 76H308M300 70L308 76L300 82" fill="none" stroke="#91aaa7" stroke-width="2.5"/>
+    <path d="M506 99V110H40V99M34 105L40 99L46 105" fill="none" stroke="#e6ad88" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(0 124)">
+    <text x="24" y="44" fill="#edf1eb" font-family="Georgia, 'Times New Roman', serif" font-size="40">Journey</text>
+    <g fill="#edf1eb" font-family="Arial, Helvetica, sans-serif" font-size="36"><text x="24" y="87">Decisions</text><text x="336" y="87">Protocol</text></g>
+    <path d="M206 76H308M300 70L308 76L300 82" fill="none" stroke="#91aaa7" stroke-width="2.5"/>
+    <path d="M506 99V110H40V99M34 105L40 99L46 105" fill="none" stroke="#e6ad88" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(0 248)">
+    <text x="24" y="44" fill="#edf1eb" font-family="Georgia, 'Times New Roman', serif" font-size="40">Lab</text>
+    <g fill="#edf1eb" font-family="Arial, Helvetica, sans-serif" font-size="36"><text x="24" y="87">Methods</text><text x="336" y="87">Results</text></g>
+    <path d="M206 76H308M300 70L308 76L300 82" fill="none" stroke="#91aaa7" stroke-width="2.5"/>
+    <path d="M506 99V110H40V99M34 105L40 99L46 105" fill="none" stroke="#e6ad88" stroke-width="2.5"/>
+  </g>
+</svg>
