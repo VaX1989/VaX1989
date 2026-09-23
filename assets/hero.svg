@@ -1,64 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="620" viewBox="0 0 1800 620" role="img" aria-labelledby="t d">
-<title id="t">Pietro Corona — Public Health, Epidemiology and AI for Research</title>
-<desc id="d">Profile banner for Pietro Corona, also known as VaX1989, connecting public health, epidemiology, evidence and research software.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="560" viewBox="0 0 1800 560" role="img" aria-labelledby="t d">
+<title id="t">Pietro Corona / VaX1989</title>
+<desc id="d">Public health, epidemiology, evidence and software — building Weavidence and selected long-horizon systems.</desc>
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-    <stop stop-color="#071014"/>
-    <stop offset=".52" stop-color="#0a1218"/>
-    <stop offset="1" stop-color="#101824"/>
+    <stop stop-color="#060a0f"/>
+    <stop offset=".55" stop-color="#0a1118"/>
+    <stop offset="1" stop-color="#111827"/>
   </linearGradient>
-  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-    <stop stop-color="#63e6be"/>
-    <stop offset=".5" stop-color="#74c0fc"/>
-    <stop offset="1" stop-color="#b197fc"/>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#61e7c8"/>
+    <stop offset=".52" stop-color="#77bdfb"/>
+    <stop offset="1" stop-color="#b29cff"/>
   </linearGradient>
-  <radialGradient id="glowA">
-    <stop stop-color="#63e6be" stop-opacity=".16"/>
-    <stop offset="1" stop-color="#63e6be" stop-opacity="0"/>
-  </radialGradient>
-  <radialGradient id="glowB">
-    <stop stop-color="#74c0fc" stop-opacity=".14"/>
-    <stop offset="1" stop-color="#74c0fc" stop-opacity="0"/>
-  </radialGradient>
+  <radialGradient id="g1"><stop stop-color="#61e7c8" stop-opacity=".16"/><stop offset="1" stop-color="#61e7c8" stop-opacity="0"/></radialGradient>
+  <radialGradient id="g2"><stop stop-color="#77bdfb" stop-opacity=".14"/><stop offset="1" stop-color="#77bdfb" stop-opacity="0"/></radialGradient>
 </defs>
+<rect width="1800" height="560" rx="34" fill="url(#bg)"/>
+<g opacity=".04" stroke="#fff">
+  <path d="M0 93H1800M0 186H1800M0 279H1800M0 372H1800M0 465H1800"/>
+  <path d="M150 0V560M300 0V560M450 0V560M600 0V560M750 0V560M900 0V560M1050 0V560M1200 0V560M1350 0V560M1500 0V560M1650 0V560"/>
+</g>
+<circle cx="1440" cy="170" r="260" fill="url(#g1)"/>
+<circle cx="1330" cy="405" r="250" fill="url(#g2)"/>
 
-<rect width="1800" height="620" rx="34" fill="url(#bg)"/>
-
-<g opacity=".045" stroke="#ffffff">
-  <path d="M0 103H1800M0 206H1800M0 309H1800M0 412H1800M0 515H1800"/>
-  <path d="M150 0V620M300 0V620M450 0V620M600 0V620M750 0V620M900 0V620M1050 0V620M1200 0V620M1350 0V620M1500 0V620M1650 0V620"/>
+<g transform="translate(110 78)">
+  <text x="0" y="22" fill="#7f8c9b" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17" letter-spacing="5">PIETRO CORONA / VAX1989</text>
+  <text x="0" y="133" fill="#f6f8fa" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="84" font-weight="720" letter-spacing="-4">Epidemiology in practice.</text>
+  <text x="0" y="220" fill="#f6f8fa" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="84" font-weight="720" letter-spacing="-4">Systems by construction.</text>
+  <rect x="2" y="258" width="184" height="4" rx="2" fill="url(#line)"/>
+  <text x="0" y="316" fill="#c9d3dd" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="26">Public health · Evidence · AI for research · Long-horizon software</text>
+  <text x="0" y="360" fill="#82909e" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="19">Building Weavidence. Exploring worlds, persons and systems that must keep their history.</text>
 </g>
 
-<circle cx="1430" cy="190" r="270" fill="url(#glowA)"/>
-<circle cx="1320" cy="420" r="250" fill="url(#glowB)"/>
-
-<g transform="translate(110 92)">
-  <text x="0" y="24" fill="#7f8d9d" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17" letter-spacing="5">PIETRO CORONA / VAX1989</text>
-
-  <text x="0" y="146" fill="#f5f7fa" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="92" font-weight="720" letter-spacing="-4">Public health.</text>
-  <text x="0" y="240" fill="#f5f7fa" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="92" font-weight="720" letter-spacing="-4">Evidence. Systems.</text>
-
-  <rect x="2" y="282" width="190" height="4" rx="2" fill="url(#accent)"/>
-
-  <text x="0" y="344" fill="#cbd5df" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="27">Epidemiology · AI for research · scientific software</text>
-  <text x="0" y="392" fill="#8290a0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="19">Building tools where evidence, software and human judgment meet.</text>
-</g>
-
-<g transform="translate(1190 103)" fill="none" stroke-width="2">
-  <circle cx="212" cy="208" r="50" stroke="#eef4f8" stroke-opacity=".65"/>
-  <circle cx="212" cy="208" r="7" fill="#eef4f8" stroke="none"/>
-
-  <circle cx="76" cy="78" r="16" fill="#63e6be" stroke="none"/>
-  <circle cx="385" cy="96" r="16" fill="#74c0fc" stroke="none"/>
-  <circle cx="394" cy="344" r="16" fill="#b197fc" stroke="none"/>
-  <circle cx="82" cy="360" r="16" fill="#f1c27d" stroke="none"/>
-
-  <path d="M91 92L177 174M370 111L247 179M379 329L247 239M97 346L178 242" stroke="#d9e4ec" stroke-opacity=".28"/>
-  <path d="M76 78C205 17 330 29 385 96C444 168 437 286 394 344C316 419 172 425 82 360C7 305 4 156 76 78Z" stroke="url(#accent)" stroke-opacity=".48"/>
-
-  <text x="76" y="49" text-anchor="middle" fill="#91a2af" stroke="none" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="2">FIELD</text>
-  <text x="385" y="66" text-anchor="middle" fill="#91a2af" stroke="none" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="2">EVIDENCE</text>
-  <text x="420" y="378" text-anchor="middle" fill="#91a2af" stroke="none" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="2">SOFTWARE</text>
-  <text x="82" y="394" text-anchor="middle" fill="#91a2af" stroke="none" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="2">JUDGMENT</text>
+<g transform="translate(1220 86)" fill="none">
+  <circle cx="210" cy="196" r="38" stroke="#eef4f8" stroke-opacity=".66" stroke-width="2"/>
+  <circle cx="210" cy="196" r="5" fill="#eef4f8"/>
+  <circle cx="75" cy="64" r="14" fill="#61e7c8"/>
+  <circle cx="365" cy="78" r="14" fill="#77bdfb"/>
+  <circle cx="385" cy="320" r="14" fill="#b29cff"/>
+  <circle cx="76" cy="338" r="14" fill="#f0c878"/>
+  <path d="M88 78L181 168M351 91L240 171M371 308L239 221M90 326L181 223" stroke="#d6e1e9" stroke-opacity=".28" stroke-width="2"/>
+  <path d="M75 64C203 10 328 20 365 78C438 156 432 269 385 320C305 397 163 410 76 338C6 278 5 146 75 64Z" stroke="url(#line)" stroke-opacity=".48" stroke-width="2"/>
+  <text x="75" y="38" text-anchor="middle" fill="#91a1af" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2">FIELD</text>
+  <text x="365" y="51" text-anchor="middle" fill="#91a1af" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2">EVIDENCE</text>
+  <text x="408" y="352" text-anchor="middle" fill="#91a1af" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2">SYSTEMS</text>
+  <text x="76" y="370" text-anchor="middle" fill="#91a1af" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2">JUDGMENT</text>
 </g>
 </svg>
