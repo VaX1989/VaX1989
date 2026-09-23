@@ -1,281 +1,118 @@
-<p align="center">
-  <img src="assets/hero.svg" alt="Pietro Corona / VaX1989 — Epidemiology in practice. Systems by construction." width="100%" />
-</p>
+# Pietro Corona
 
-<h1 align="center">Pietro Corona</h1>
+**Public health · Epidemiology · Software & AI for research**
 
-<p align="center">
-  <strong>Public health · Epidemiology · AI for research · Evidence systems</strong>
-</p>
+Building **[Weavidence](#weavidence)**. `VaX1989` is my technical handle.
 
-<p align="center">
-  Public-health professional, epidemiology practitioner and adjunct university lecturer.<br/>
-  I build research, evidence and long-horizon software systems. <code>VaX1989</code> is my technical handle.
-</p>
+My route into software and AI began in public health: surveillance, health-information systems and epidemiological analysis. I also teach on contract at the [University of Cagliari](https://web.unica.it/unica/page/it/pietro_corona).
 
-<p align="center">
-  <a href="https://www.weavidence.com/"><strong>Weavidence</strong></a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://it.linkedin.com/in/pietro-corona-020959108"><strong>LinkedIn</strong></a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://web.unica.it/unica/page/it/pietro_corona"><strong>University of Cagliari</strong></a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://www.amazon.it/-/en/stores/author/B0GGMQBW3X/about"><strong>Books</strong></a>
-</p>
+[Weavidence](#weavidence) · [Selected systems](#selected-systems) · [Writing](#writing)
 
----
+## Weavidence
 
-## One trajectory, not several identities
+I am developing **Weavidence** as an independent set of tools for learning research methods, designing studies and inspecting how analytical results were produced.
 
-My professional foundation is **public health and epidemiology**: surveillance, health-information systems, mortality, prevention, quantitative analysis, monitoring and evaluation.
+**Academy** keeps learning connected to source versions and assessment evidence. **Journey** makes research-design decisions explicit and revision-bound. **Lab** keeps analytical outputs connected to datasets, transformations, methods and review context.
 
-Software and AI came later.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/research-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/research-light.svg">
+  <img src="assets/research-light.svg" width="560" alt="Three Weavidence paths: Academy connects sources to learning, Journey connects decisions to a protocol, and Lab connects methods to results. Each path includes a return trace to the context behind the output.">
+</picture>
 
-I use them because some research and evidence problems are not solved by another dashboard, another prompt or another opaque model call. They require systems that preserve **provenance, authority, uncertainty, history and human judgment** as capability grows.
+Three paths, each with a way back to what produced the output. *System sketch, not a product screenshot or a claim that the three products share one release state.*
 
-That is the thread connecting my work:
+**Active development.** The product surfaces have different engineering states. Internal testing is not external scientific review, validation, adoption or production readiness.
 
-```text
-public health practice
-        ↓
-epidemiology + evidence
-        ↓
-research methodology
-        ↓
-software + AI
-        ↓
-governed systems
-```
+[Explore Weavidence](https://www.weavidence.com/)
 
-Today, the main expression of that trajectory is **Weavidence**.
+<details>
+<summary>What those three paths preserve</summary>
 
----
+**Academy:** viewing material, practising, passing an assessment and demonstrating a capability are different events. Learning and assessment stay tied to the source and design versions that produced them.
 
-<p align="center">
-  <img src="assets/weavidence.svg" alt="Weavidence — research workflows with provenance, boundaries and human authority" width="100%" />
-</p>
+**Journey:** decisions, findings and exports refer to a particular protocol revision. Human confirmation and reasoned overrides remain explicit; fluent generated text is not methodological authority. The current repository describes a local beta, not a qualified hosted service.
 
-## Weavidence — flagship
+**Lab:** an analytical result needs its dataset, transformations and analytical context. Generated explanations are separate from the computations they describe. Runtime verification varies by capability.
 
-**Weavidence** is my principal long-term research and product project.
-
-It explores how research workflows can become more **traceable, reproducible, inspectable and governable**, while keeping human authority explicit.
-
-The ecosystem is organized around three connected surfaces:
-
-| Surface | Purpose |
-|---|---|
-| **Academy** | Learning structured around knowledge, evidence and demonstrated competence. |
-| **Journey** | A governed path from a research question toward an auditable protocol. |
-| **Lab** | Data quality, lineage, analysis, simulation and bounded AI-assisted workflows. |
-
-> **AI may accelerate research. It should not erase provenance, uncertainty, accountability or human control.**
-
-<p align="center">
-  <a href="https://www.weavidence.com/"><strong>weavidence.com ↗</strong></a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://app.weavidence.com/"><strong>open Journey ↗</strong></a>
-</p>
-
-<sub><strong>Status.</strong> Weavidence is an independent project in active development. I distinguish implemented capability from external validation, adoption and scientific review.</sub>
-
----
+</details>
 
 ## Selected systems
 
-These are the secondary projects that best represent how I think about systems.
-
-They are not presented as a random portfolio. Each explores a different version of the same hard problem:
-
-> **How do you let a complex system evolve without losing truth, history, authority or consequence?**
-
-<p align="center">
-  <img src="assets/noia.svg" alt="NOIA / FIELD — persistent investigation, evidence, custody and consequence" width="100%" />
-</p>
-
 ### NOIA / FIELD
 
-**NOIA** is a persistent systemic investigation world built around evidence, interpretation, custody and consequence.
+A persistent stealth-investigation game in which evidence has to survive contact with the world. The player's **Subject** follows signals into questions and **Casefiles**, then into **FIELD**: NOIA's embodied physical-operation layer, not a separate game.
 
-Its core structure spans three realities:
+**Signal → Question → Casefile → FIELD → Evidence → accepted consequence**  
+↳ Custody, provenance and changes to the Subject and world remain inspectable.
 
-**OPTIC** — what the Subject knows and is trying to establish.  
-**WINDOW / EventWeave** — how the world is interpreted, connected and reconstructed.  
-**FIELD** — what physically happens, under causal sensing, risk and verifiable outcomes.
+A shutter can break a sightline and make a sound. What is recovered, who has custody and what the operation establishes can alter later possibilities.
 
-FIELD is not a side project attached to NOIA. It is the embodied operation layer of the same product architecture.
+**Private development.**
 
-The design principle I care about most is simple:
+<details>
+<summary>OPTIC, WINDOW / EventWeave and FIELD</summary>
 
-> **The valuable object is not loot. It is evidence.**
+**OPTIC** holds the Subject's inquiry and personal continuity. **WINDOW** makes the world interpretable; **EventWeave** is a rebuildable causal/provenance projection, not the authority for persistent state.
 
-NOIA / FIELD is in private development.
+A version-pinned **OperationManifest** defines the operation context. FIELD produces an **OperationResult**; NOIA accepts and reconciles it before persistent custody and consequences change. The player cannot simply declare the outcome.
 
----
+Sensing, observations and evidence constrain what a seeker can know. Hidden world state is not a shortcut to an omniscient opponent.
 
-<p align="center">
-  <img src="assets/ofu.svg" alt="One File Universe — one deterministic artifact, one persistent universe" width="100%" />
-</p>
+</details>
 
-### [One File Universe](https://github.com/VaX1989/One_File_Universe)
+### One File Universe
 
-**One File Universe (OFU)** is an experimental engineering project for a persistent, explorable procedural universe distributed as **one deterministic HTML file**.
+A persistent, multiscale reality distributed as **one deterministic HTML file**, built from modular source. Its sparse graph separates stable identities from the views materialized for exploration.
 
-The source remains modular and testable; the single-file artifact is the distribution target.
+**Stable identity → bounded materialization → view → replay**  
+↳ Canonical history, provenance and model authority survive a discarded view.
 
-The project explores:
-
-- stable identity across scale;
-- deterministic generation;
-- causal continuity;
-- explicit model authority;
-- provenance;
-- replay and reproducibility;
-- bounded materialization rather than pretending the whole universe exists at once.
-
-**One file. One universe. Verifiable by construction.**
-
----
-
-<p align="center">
-  <img src="assets/personae.svg" alt="Personae — persistent digital Persons with history, authority and interoperability" width="100%" />
-</p>
+**Experimental.** [Source, build instructions and limits](https://github.com/VaX1989/One_File_Universe).
 
 ### Personae
 
-**Personae** is local-first, model-independent infrastructure for persistent digital Persons with explicit history, authority and interoperability.
+Local-first, model-independent infrastructure for a persistent digital **Person**. A proposed change can be reviewed without changing the Person; only an authorized accepted event extends canonical history.
 
-The central idea is that a digital Person should be more than a prompt, profile or memory store.
+**Proposal → review → authorized acceptance → accepted history**  
+↳ Provenance, event time, recorded time and authority remain distinguishable.
 
-Personae separates **information from authority** and treats accepted history as a first-class system property.
+Memory, provenance and model output do not automatically become truth.
 
-Some of its governing boundaries are deliberately strict:
+**Private experimental development.**
 
-```text
-PROVENANCE != TRUTH
-MEMORY != TRUTH
-CAPABILITY != AUTHORIZATION
-MODEL OUTPUT != PERSON MUTATION
-DELIVERY ORDER != ACCEPTED HISTORY
-```
+<details>
+<summary>Personae: temporal and authority boundaries</summary>
 
-Personae is currently in private development.
+The temporal model distinguishes when an event occurred from when it was recorded. Interoperability contracts remain distinct from their implementations. Capability is not authorization, and delivery order is not accepted history. The Person format is experimental, not an approved standard.
 
----
+</details>
 
-## A common grammar
-
-Different domains, same engineering questions.
-
-<table>
-<tr>
-<td align="center" width="33%">
-<strong>HUMAN AUTHORITY</strong><br/>
-<sub>Tools may propose. Responsibility stays explicit.</sub>
-</td>
-<td align="center" width="33%">
-<strong>PROVENANCE</strong><br/>
-<sub>Claims, transformations and artifacts should keep their origin.</sub>
-</td>
-<td align="center" width="33%">
-<strong>BOUNDARIES</strong><br/>
-<sub>Capability, uncertainty and authority should not blur together.</sub>
-</td>
-</tr>
-<tr>
-<td align="center">
-<strong>REPRODUCIBILITY</strong><br/>
-<sub>Important results should be inspectable again.</sub>
-</td>
-<td align="center">
-<strong>CONTINUITY</strong><br/>
-<sub>Identity and history should survive system evolution.</sub>
-</td>
-<td align="center">
-<strong>CRAFT</strong><br/>
-<sub>Technical rigor deserves a deliberate surface.</sub>
-</td>
-</tr>
-</table>
-
----
-
-<p align="center">
-  <img src="assets/editorial.svg" alt="Editorial work — Elements of Population Health and Tempo. Libero." width="100%" />
-</p>
-
-## Editorial work
-
-Writing is another way I build systems.
+## Writing
 
 ### Elements of Population Health
 
-**Elements of Population Health** is a **21-volume independent series** spanning epidemiology, public health, health systems, digital health, implementation, ethics, law, preparedness and related areas.
+A **21-volume independent population-health series** connecting epidemiological methods, public-health practice and the institutions in which decisions are made. Its editorial architecture keeps sources, claims, manuscripts and editions distinct.
 
-The project is also an experiment in large-scale knowledge architecture: claims, sources, manuscripts, editorial states and production artifacts are kept as distinct objects rather than collapsed into one opaque writing process.
-
-The workflow is **AI-assisted and human-directed**. AI has supported source discovery, argument architecture, drafting, revision, translation, bibliographic checking, editing and production. Human reading, correction, direction and final editorial judgment remain mine.
-
-**The books have not undergone external peer review**, and I do not present them as peer-reviewed publications.
+I use AI for source discovery, argument structure, first drafts, revision, translation, bibliographic checking, editing and production. I direct the work and remain responsible for reading, verification, correction and final editorial judgment. **The books have not undergone external peer review.**
 
 ### Tempo. Libero.
 
-**Tempo. Libero.** is a long-form essay on the relationship between acceleration, available time, effective freedom and the possibility of changing direction.
+An essay about technology, acceleration and the difference between time saved and the freedom to change direction.
 
-Its central question is not whether technology can save time, but:
-
-> **Who gets to decide what liberated time becomes?**
-
-<p align="center">
-  <a href="https://www.amazon.it/-/en/stores/author/B0GGMQBW3X/about"><strong>Author page ↗</strong></a>
-</p>
+[Books and author page](https://www.amazon.it/-/en/stores/author/B0GGMQBW3X/about)
 
 ---
 
-## Professional anchor
+<details>
+<summary>Professional context and how I work</summary>
 
-My current formal role in the Italian National Health Service is **Assistente Sanitario (Public Health Assistant)** at **ASL Cagliari**.
+My current formal healthcare role is **Assistente Sanitario at ASL Cagliari**. My work has included surveillance, health-information flows and quantitative analysis.
 
-My work has included epidemiological analysis, surveillance systems, health-information flows, mortality data and public-health programs.
+From May 2024 to June 2025, I held a separate appointment as **Esperto epidemiologo** at Sardinia's Regional Epidemiological Observatory. My current healthcare role and contract teaching are distinct from these independent projects; they do not imply institutional endorsement.
 
-From **May 2024 to June 2025**, I also held a separate formal assignment as **Esperto epidemiologo (Epidemiology Expert)** with the Regional Epidemiological Observatory of Sardinia.
+I use AI extensively in software design, coding and review. Its output is not independent validation. Product decisions, correction and release responsibility remain mine.
 
-I teach as an **adjunct lecturer at the University of Cagliari** in public-health-related subjects.
+</details>
 
-I keep this distinction explicit because **professional identity, domain expertise and formal job titles should reinforce one another without being conflated**.
-
----
-
-## What this profile is — and is not
-
-This profile is a curated front door.
-
-It is meant to make a few things legible:
-
-- where my domain expertise comes from;
-- what I am building now;
-- which secondary systems best represent my technical work;
-- how I think about evidence, provenance and authority;
-- where the public record can verify the professional identity behind the handle.
-
-It is **not** a dump of every repository, experiment, prototype, fork or short-lived contribution.
-
-If a project appears here, it is because it says something material about the work.
-
----
-
-## Connect
-
-<p align="center">
-  <a href="https://www.weavidence.com/">Weavidence</a>
-  &nbsp;·&nbsp;
-  <a href="https://it.linkedin.com/in/pietro-corona-020959108">LinkedIn</a>
-  &nbsp;·&nbsp;
-  <a href="https://web.unica.it/unica/page/it/pietro_corona">University of Cagliari</a>
-  &nbsp;·&nbsp;
-  <a href="https://www.amazon.it/-/en/stores/author/B0GGMQBW3X/about">Books</a>
-</p>
-
-<p align="center">
-  <strong>Build deeply. Keep the evidence visible. Make the boundaries explicit.</strong>
-</p>
+For research methods, technical review or collaboration: **[LinkedIn](https://it.linkedin.com/in/pietro-corona-020959108)**.
