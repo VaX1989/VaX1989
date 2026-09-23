@@ -1,31 +1,64 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1800" height="620" viewBox="0 0 1800 620" role="img" aria-labelledby="t d">
-<title id="t">VaX1989 — systems, worlds, books</title><desc id="d">Editorial dark hero linking evidence systems, narrative worlds and publishing.</desc>
+<title id="t">Pietro Corona — Public Health, Epidemiology and AI for Research</title>
+<desc id="d">Profile banner for Pietro Corona, also known as VaX1989, connecting public health, epidemiology, evidence and research software.</desc>
 <defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07090c"/><stop offset=".54" stop-color="#0b1016"/><stop offset="1" stop-color="#10161e"/></linearGradient>
-<linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#6ee7c8"/><stop offset=".48" stop-color="#a695ff"/><stop offset="1" stop-color="#f2c879"/></linearGradient>
-<radialGradient id="r1"><stop stop-color="#6ee7c8" stop-opacity=".18"/><stop offset="1" stop-color="#6ee7c8" stop-opacity="0"/></radialGradient>
-<radialGradient id="r2"><stop stop-color="#9b8cff" stop-opacity=".16"/><stop offset="1" stop-color="#9b8cff" stop-opacity="0"/></radialGradient>
-<radialGradient id="r3"><stop stop-color="#f2c879" stop-opacity=".13"/><stop offset="1" stop-color="#f2c879" stop-opacity="0"/></radialGradient>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#071014"/>
+    <stop offset=".52" stop-color="#0a1218"/>
+    <stop offset="1" stop-color="#101824"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#63e6be"/>
+    <stop offset=".5" stop-color="#74c0fc"/>
+    <stop offset="1" stop-color="#b197fc"/>
+  </linearGradient>
+  <radialGradient id="glowA">
+    <stop stop-color="#63e6be" stop-opacity=".16"/>
+    <stop offset="1" stop-color="#63e6be" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="glowB">
+    <stop stop-color="#74c0fc" stop-opacity=".14"/>
+    <stop offset="1" stop-color="#74c0fc" stop-opacity="0"/>
+  </radialGradient>
 </defs>
+
 <rect width="1800" height="620" rx="34" fill="url(#bg)"/>
-<g opacity=".045" stroke="#fff"><path d="M0 103H1800M0 206H1800M0 309H1800M0 412H1800M0 515H1800"/><path d="M150 0V620M300 0V620M450 0V620M600 0V620M750 0V620M900 0V620M1050 0V620M1200 0V620M1350 0V620M1500 0V620M1650 0V620"/></g>
-<circle cx="1315" cy="164" r="240" fill="url(#r1)"/><circle cx="1475" cy="326" r="225" fill="url(#r2)"/><circle cx="1260" cy="478" r="210" fill="url(#r3)"/>
-<g transform="translate(110 96)">
-<text x="0" y="26" fill="#778291" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17" letter-spacing="5">PIETRO CORONA / VAX1989</text>
-<text x="0" y="142" fill="#f4f6f8" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="96" font-weight="720" letter-spacing="-5">I build things</text>
-<text x="0" y="236" fill="#f4f6f8" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="96" font-weight="720" letter-spacing="-5">that must hold.</text>
-<rect x="2" y="277" width="154" height="4" rx="2" fill="url(#beam)"/>
-<text x="0" y="338" fill="#c8d0da" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="27">Evidence systems · narrative worlds · editorial works</text>
-<text x="0" y="385" fill="#7f8a99" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="19">Designed for scrutiny. Built with boundaries. Left open enough to evolve.</text>
+
+<g opacity=".045" stroke="#ffffff">
+  <path d="M0 103H1800M0 206H1800M0 309H1800M0 412H1800M0 515H1800"/>
+  <path d="M150 0V620M300 0V620M450 0V620M600 0V620M750 0V620M900 0V620M1050 0V620M1200 0V620M1350 0V620M1500 0V620M1650 0V620"/>
 </g>
-<g transform="translate(1170 115)" fill="none" stroke-width="2">
-<path d="M120 74C240 45 365 112 394 219C421 319 344 408 239 425C142 441 46 378 38 275C31 181 52 91 120 74Z" stroke="#6ee7c8" stroke-opacity=".5"/>
-<path d="M94 248C174 175 283 176 367 233" stroke="#a695ff" stroke-opacity=".48"/>
-<path d="M128 110C176 205 177 326 125 398" stroke="#f2c879" stroke-opacity=".46"/>
-<circle cx="120" cy="74" r="10" fill="#6ee7c8" stroke="none"/><circle cx="394" cy="219" r="10" fill="#a695ff" stroke="none"/><circle cx="125" cy="398" r="10" fill="#f2c879" stroke="none"/><circle cx="239" cy="264" r="28" stroke="#eef2f6" stroke-opacity=".7"/>
-<circle cx="239" cy="264" r="5" fill="#eef2f6" stroke="none"/>
-<text x="120" y="48" text-anchor="middle" fill="#7d8a99" stroke="none" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="2">EVIDENCE</text>
-<text x="426" y="224" fill="#7d8a99" stroke="none" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="2">WORLDS</text>
-<text x="125" y="430" text-anchor="middle" fill="#7d8a99" stroke="none" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="2">EDITIONS</text>
+
+<circle cx="1430" cy="190" r="270" fill="url(#glowA)"/>
+<circle cx="1320" cy="420" r="250" fill="url(#glowB)"/>
+
+<g transform="translate(110 92)">
+  <text x="0" y="24" fill="#7f8d9d" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17" letter-spacing="5">PIETRO CORONA / VAX1989</text>
+
+  <text x="0" y="146" fill="#f5f7fa" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="92" font-weight="720" letter-spacing="-4">Public health.</text>
+  <text x="0" y="240" fill="#f5f7fa" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="92" font-weight="720" letter-spacing="-4">Evidence. Systems.</text>
+
+  <rect x="2" y="282" width="190" height="4" rx="2" fill="url(#accent)"/>
+
+  <text x="0" y="344" fill="#cbd5df" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="27">Epidemiology · AI for research · scientific software</text>
+  <text x="0" y="392" fill="#8290a0" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="19">Building tools where evidence, software and human judgment meet.</text>
+</g>
+
+<g transform="translate(1190 103)" fill="none" stroke-width="2">
+  <circle cx="212" cy="208" r="50" stroke="#eef4f8" stroke-opacity=".65"/>
+  <circle cx="212" cy="208" r="7" fill="#eef4f8" stroke="none"/>
+
+  <circle cx="76" cy="78" r="16" fill="#63e6be" stroke="none"/>
+  <circle cx="385" cy="96" r="16" fill="#74c0fc" stroke="none"/>
+  <circle cx="394" cy="344" r="16" fill="#b197fc" stroke="none"/>
+  <circle cx="82" cy="360" r="16" fill="#f1c27d" stroke="none"/>
+
+  <path d="M91 92L177 174M370 111L247 179M379 329L247 239M97 346L178 242" stroke="#d9e4ec" stroke-opacity=".28"/>
+  <path d="M76 78C205 17 330 29 385 96C444 168 437 286 394 344C316 419 172 425 82 360C7 305 4 156 76 78Z" stroke="url(#accent)" stroke-opacity=".48"/>
+
+  <text x="76" y="49" text-anchor="middle" fill="#91a2af" stroke="none" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="2">FIELD</text>
+  <text x="385" y="66" text-anchor="middle" fill="#91a2af" stroke="none" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="2">EVIDENCE</text>
+  <text x="420" y="378" text-anchor="middle" fill="#91a2af" stroke="none" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="2">SOFTWARE</text>
+  <text x="82" y="394" text-anchor="middle" fill="#91a2af" stroke="none" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="2">JUDGMENT</text>
 </g>
 </svg>
