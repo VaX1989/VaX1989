@@ -1,10 +1,14 @@
-# Pietro Corona
+# Software, research systems, and experiments
 
-**Public health · Epidemiology · Software & AI for research**
+**Shaped by public health, curiosity and AI-assisted development.**
 
-Building **[Weavidence](#weavidence)**. `VaX1989` is my technical handle.
+I came to software from a different path. My background is in public health and epidemiology, but I had always wanted to build tools, systems and ideas of my own. AI-assisted development gave me a practical way to cross that gap — turning things that once remained sketches, notes or unrealized concepts into working software.
 
-My route into software and AI began in public health: surveillance, health-information systems and epidemiological analysis. I also teach on contract at the [University of Cagliari](https://web.unica.it/unica/page/it/pietro_corona).
+This GitHub is where those paths now meet. Some projects grow directly from my professional experience in research, epidemiology and public health. Others are deliberately exploratory: publishing systems, persistent worlds, games, digital persons and experiments I simply wanted to see exist.
+
+What connects them is the same impulse: **learning by building, testing ideas against reality, and exploring how far a good idea can be taken.**
+
+**Pietro Corona** · Public health & epidemiology · Building **[Weavidence](#weavidence)** · `VaX1989` is my technical handle.
 
 [Weavidence](#weavidence) · [Elements of Population Health](#elements-of-population-health) · [Editorial works](#editorial-works--production-systems) · [NOIA / FIELD](#noia--field) · [Experimental systems](#experimental-research-systems)
 
@@ -193,7 +197,9 @@ A persistent, multiscale reality distributed as **one deterministic HTML file**,
 
 My current formal healthcare role is **Assistente Sanitario at ASL Cagliari**. My work has included surveillance, health-information flows and quantitative analysis.
 
-From May 2024 to June 2025, I held a separate appointment as **Esperto epidemiologo** at Sardinia's Regional Epidemiological Observatory. My current healthcare role and contract teaching are distinct from these independent projects; they do not imply institutional endorsement.
+I also teach on contract at the [University of Cagliari](https://web.unica.it/unica/page/it/pietro_corona).
+
+From May 2024 to June 2025, I held a separate appointment as **Esperto epidemiologo** at Sardinia's Regional Epidemiological Observatory. My healthcare roles, contract teaching and independent projects are distinct; they do not imply institutional endorsement.
 
 I use AI extensively in software design, coding and review. Its output is not independent validation. Product decisions, correction and release responsibility remain mine.
 
