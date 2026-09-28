@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">Weavidence Academy system portrait</title>
+  <desc id="desc">An editorial system portrait showing a connected knowledge field flowing through learning design, learner action, assessment judgment and evidence, with distinct viewed, practised, passed and demonstrated states.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F4EFE6"/>
+      <stop offset="0.58" stop-color="#eef4ef"/>
+      <stop offset="1" stop-color="#e4eeea"/>
+    </linearGradient>
+    <linearGradient id="thread" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0E4D5C"/>
+      <stop offset="0.5" stop-color="#2f7f8d"/>
+      <stop offset="1" stop-color="#5C8A6D"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#76d8ca" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#76d8ca" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#0E4D5C" stroke-opacity="0.065" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="640" rx="28" fill="url(#bg)"/>
+  <rect width="1280" height="640" rx="28" fill="url(#grid)"/>
+  <circle cx="248" cy="314" r="240" fill="url(#halo)"/>
+
+  <g transform="translate(64 54)">
+    <rect width="44" height="44" rx="3" fill="#0B0E13"/>
+    <polyline points="6,8 13,32 22,17 31,32 38,8" fill="none" stroke="#F4EFE6" stroke-width="4.7" stroke-linejoin="miter" stroke-linecap="butt"/>
+    <text x="60" y="17" fill="#0B0E13" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="3.2">WEAVIDENCE</text>
+    <text x="60" y="38" fill="#52696d" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="600" letter-spacing="2.6">ACADEMY / SYSTEM PORTRAIT</text>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="72" y="156" fill="#52696d" font-size="11" font-weight="700" letter-spacing="2.2">VERSIONED KNOWLEDGE</text>
+    <path d="M108 368 C180 310 230 318 292 258 S405 185 488 226" fill="none" stroke="url(#thread)" stroke-width="3.5"/>
+    <path d="M292 258 C341 301 368 340 430 380" fill="none" stroke="#776ca6" stroke-opacity="0.65" stroke-width="1.5" stroke-dasharray="6 7"/>
+    <path d="M292 258 C350 238 390 242 455 292" fill="none" stroke="#2f7f8d" stroke-opacity="0.55" stroke-width="1.3" stroke-dasharray="4 7"/>
+
+    <g transform="translate(108 368)">
+      <circle r="15" fill="#ffffff" stroke="#0E4D5C" stroke-width="2"/>
+      <circle r="4" fill="#0E4D5C"/>
+      <text x="-30" y="36" fill="#123139" font-size="13" font-weight="700">Source</text>
+      <text x="-42" y="53" fill="#52696d" font-size="10">exact version</text>
+    </g>
+    <g transform="translate(292 258)">
+      <circle r="24" fill="#0E4D5C" stroke="#0E4D5C" stroke-width="3"/>
+      <circle r="7" fill="#F4EFE6"/>
+      <text x="-43" y="48" fill="#0B0E13" font-size="14" font-weight="700">Knowledge</text>
+      <text x="-58" y="66" fill="#52696d" font-size="10">concept · resource</text>
+    </g>
+    <g transform="translate(488 226)">
+      <circle r="16" fill="#ffffff" stroke="#2f7f8d" stroke-width="2"/>
+      <path d="M-6 0h12M0-6v12" stroke="#2f7f8d" stroke-width="2"/>
+      <text x="-44" y="38" fill="#123139" font-size="13" font-weight="700">Learning</text>
+      <text x="-52" y="55" fill="#52696d" font-size="10">designed outcome</text>
+    </g>
+    <g transform="translate(430 380)">
+      <circle r="13" fill="#ffffff" stroke="#776ca6" stroke-width="2"/>
+      <circle r="4" fill="#776ca6"/>
+      <text x="-44" y="35" fill="#123139" font-size="12" font-weight="700">Related path</text>
+    </g>
+  </g>
+
+  <g transform="translate(545 172)">
+    <rect x="0" y="0" width="654" height="278" rx="24" fill="#ffffff" fill-opacity="0.62" stroke="#0E4D5C" stroke-opacity="0.18"/>
+    <text x="28" y="36" fill="#52696d" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" letter-spacing="2">KNOWLEDGE → EVIDENCE</text>
+
+    <path d="M52 126 C116 80 160 80 224 126 S332 172 396 126 S504 80 592 126" fill="none" stroke="#0E4D5C" stroke-width="2.2" stroke-opacity="0.74"/>
+    <path d="M52 148 C116 194 160 194 224 148 S332 102 396 148 S504 194 592 148" fill="none" stroke="#2f7f8d" stroke-width="2.2" stroke-opacity="0.66"/>
+    <path d="M52 137H592" fill="none" stroke="#5C8A6D" stroke-width="1" stroke-opacity="0.25"/>
+
+    <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+      <g transform="translate(52 137)"><circle r="17" fill="#ffffff" stroke="#0E4D5C" stroke-width="2"/><text y="48" fill="#0B0E13" font-size="11" font-weight="700">KNOWLEDGE</text></g>
+      <g transform="translate(187 137)"><circle r="17" fill="#ffffff" stroke="#2f7f8d" stroke-width="2"/><text y="48" fill="#0B0E13" font-size="11" font-weight="700">DESIGN</text></g>
+      <g transform="translate(322 137)"><circle r="19" fill="#0E4D5C" stroke="#0E4D5C" stroke-width="2"/><circle r="5" fill="#F4EFE6"/><text y="50" fill="#0B0E13" font-size="11" font-weight="700">LEARNER</text></g>
+      <g transform="translate(457 137)"><circle r="17" fill="#ffffff" stroke="#B44B28" stroke-width="2"/><text y="48" fill="#0B0E13" font-size="11" font-weight="700">JUDGMENT</text></g>
+      <g transform="translate(592 137)"><circle r="18" fill="#5C8A6D" stroke="#5C8A6D" stroke-width="2"/><circle r="5" fill="#F4EFE6"/><text y="49" fill="#0B0E13" font-size="11" font-weight="700">EVIDENCE</text></g>
+    </g>
+
+    <text x="28" y="246" fill="#52696d" font-family="Arial, Helvetica, sans-serif" font-size="11">Exact versions. Explicit authority. Append-only evidence history.</text>
+  </g>
+
+  <g transform="translate(64 525)" font-family="Arial, Helvetica, sans-serif">
+    <text x="0" y="0" fill="#52696d" font-size="10" font-weight="700" letter-spacing="2">FOUR STATES — NEVER COLLAPSED</text>
+    <g transform="translate(0 28)"><circle cx="9" cy="9" r="8" fill="none" stroke="#52696d" stroke-width="1.6"/><text x="26" y="13" fill="#123139" font-size="12">VIEWED</text></g>
+    <g transform="translate(132 28)"><circle cx="9" cy="9" r="8" fill="none" stroke="#2f7f8d" stroke-width="1.6"/><path d="M9 1a8 8 0 0 1 0 16z" fill="#2f7f8d"/><text x="26" y="13" fill="#123139" font-size="12">PRACTISED</text></g>
+    <g transform="translate(292 28)"><circle cx="9" cy="9" r="8" fill="#B44B28" fill-opacity="0.22" stroke="#B44B28" stroke-width="1.6"/><path d="M9 1a8 8 0 0 0 0 16z" fill="#B44B28"/><text x="26" y="13" fill="#123139" font-size="12">PASSED</text></g>
+    <g transform="translate(420 28)"><circle cx="9" cy="9" r="8" fill="#5C8A6D"/><text x="26" y="13" fill="#0B0E13" font-size="12" font-weight="700">DEMONSTRATED</text></g>
+  </g>
+
+  <g transform="translate(956 524)" font-family="Arial, Helvetica, sans-serif">
+    <text x="0" y="0" fill="#52696d" font-size="10" font-weight="700" letter-spacing="2">CANONICAL EXPERIENCE STATE</text>
+    <text x="0" y="25" fill="#0B0E13" font-size="13" font-weight="700">One governed state.</text>
+    <text x="0" y="44" fill="#52696d" font-size="12">Multiple accessible projections.</text>
+  </g>
+</svg>
