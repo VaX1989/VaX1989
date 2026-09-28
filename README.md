@@ -1,5 +1,3 @@
-<p align="center"><sub>PIETRO CORONA · PUBLIC HEALTH · EPIDEMIOLOGY · RESEARCH SYSTEMS</sub></p>
-
 # Pietro Corona
 
 **Public health · Epidemiology · Software & AI for research**
@@ -7,6 +5,8 @@
 Building **[Weavidence](#weavidence)**. `VaX1989` is my technical handle.
 
 My route into software and AI began in public health: surveillance, health-information systems and epidemiological analysis. I also teach on contract at the [University of Cagliari](https://web.unica.it/unica/page/it/pietro_corona).
+
+[Weavidence](#weavidence) · [Elements of Population Health](#elements-of-population-health) · [Editorial works](#editorial-works--production-systems) · [NOIA / FIELD](#noia--field) · [Experimental systems](#experimental-research-systems)
 
 <p align="center">
   <picture>
@@ -17,14 +17,6 @@ My route into software and AI began in public health: surveillance, health-infor
 </p>
 
 <p align="center"><sub><strong>Portfolio map.</strong> Editorial orientation, not a product-state or validation diagram.</sub></p>
-
-<p align="center">
-  <a href="#weavidence"><strong>Weavidence</strong></a> ·
-  <a href="#elements-of-population-health">Elements of Population Health</a> ·
-  <a href="#editorial-works--production-systems">Editorial works</a> ·
-  <a href="#noia--field">NOIA / FIELD</a> ·
-  <a href="#experimental-research-systems">Experimental systems</a>
-</p>
 
 ---
 
