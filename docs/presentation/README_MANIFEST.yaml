@@ -1,0 +1,47 @@
+standard: vax1989.flagship-readme/v1
+overlay: vax1989.profile-portfolio/v1
+surface: github-profile
+canonical_readme: README.md
+baseline_main_commit: cc47998afc320badb81103b2ee1ed76b6b86f017
+primary_project: Weavidence
+
+narrative_order:
+  - identity
+  - weavidence
+  - elements-of-population-health
+  - editorial-works-and-production-systems
+  - noia-field
+  - experimental-research-systems
+  - professional-context
+
+visual_grammar:
+  portfolio: museum-editorial
+  weavidence: scientific-luxury
+  elements_of_population_health: scientific-editorial
+  editorial_works: work-specific
+  noia_field: cinematic-investigative
+  experimental_systems: research-laboratory
+  light_dark_hero: true
+
+truth_contract:
+  preserve_professional_role_integrity: true
+  preserve_institutional_non_endorsement: true
+  preserve_ai_disclosure: true
+  concept_visuals_must_be_labeled: true
+  private_repositories_must_not_be_presented_as_public: true
+  system_portraits_must_not_be_called_screenshots: true
+  synthetic_reference_artifacts_must_be_labeled: true
+  internal_testing_is_not_external_validation: true
+  kdp_self_publication_is_not_peer_review: true
+  visual_wow_must_not_upgrade_evidence_class: true
+
+public_paths:
+  weavidence: https://www.weavidence.com/
+  academy: https://www.weavidence.com/academy
+  journey: https://www.weavidence.com/journey
+  journey_app: https://app.weavidence.com/
+  lab: https://www.weavidence.com/lab
+  one_file_universe: https://github.com/VaX1989/One_File_Universe
+  author_page: https://www.amazon.it/-/en/stores/author/B0GGMQBW3X/about
+
+asset_provenance: docs/presentation/ASSET_PROVENANCE.md

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="145mm" height="220mm" viewBox="0 0 145 220" role="img" aria-labelledby="title desc">
+  <title id="title">Tempo. Libero.</title>
+  <desc id="desc">Copertina tipografica su fondo carta naturale. Le parole Tempo e Libero sono separate da un ampio intervallo attraversato da una traccia color ossido.</desc>
+  <rect width="145" height="220" fill="#F7F3EA"/>
+  <style>
+    .display { font-family: "Inter", Arial, sans-serif; fill: #1C1A18; font-weight: 700; }
+    .service { font-family: "Inter", Arial, sans-serif; fill: #1C1A18; }
+    .accent { stroke: #7A3426; fill: none; }
+  </style>
+  <text class="service" x="18" y="20" font-size="3.3" letter-spacing="0.26">PIETRO CORONA</text>
+  <text class="display" x="18" y="70" font-size="18.7" letter-spacing="-0.72">TEMPO.</text>
+  <path class="accent" d="M18 84 H56 M91 84 H127" stroke-width="1.25"/>
+  <circle cx="56" cy="84" r="1.35" fill="#7A3426"/>
+  <circle cx="91" cy="84" r="1.35" fill="#7A3426"/>
+  <text class="display" x="36" y="124" font-size="18.7" letter-spacing="-0.72">LIBERO.</text>
+  <text class="service" x="18" y="158" font-size="4.15" font-weight="500">
+    <tspan x="18" dy="0">La possibilità di cambiare</tspan>
+    <tspan x="18" dy="5.9">in un mondo che accelera</tspan>
+  </text>
+  <path class="accent" d="M18 194 H49 M55 194 H78 M86 194 H108" stroke-width="0.58" stroke-linecap="round"/>
+  <path class="accent" d="M114 194 H127" stroke-width="0.58" stroke-dasharray="1.1 2.25" stroke-linecap="round"/>
+</svg>
